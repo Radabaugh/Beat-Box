@@ -38,6 +38,7 @@ public class BeatBox {
         for (String filename : soundNames) {
             String assetPath = SOUNDS_FOLDER + "/" + filename;
             Sound sound = new Sound(assetPath);
+            mSounds.add(sound);
         }
     }
 
