@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.radabaugh.tyler.beatbox.databinding.FragmentBeatBoxBinding;
+import com.radabaugh.tyler.beatbox.databinding.ListItemSoundBinding;
 
 /**
  * Created by Tyler Radabaugh on 11/10/2017.
