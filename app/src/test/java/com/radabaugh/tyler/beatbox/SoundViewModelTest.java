@@ -1,7 +1,9 @@
 package com.radabaugh.tyler.beatbox;
 
 import org.junit.Before;
+import org.junit.Test;
 
+import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 
@@ -21,4 +23,8 @@ public class SoundViewModelTest {
         mSubject.setSound(mSound);
     }
 
+    @Test
+    public void exposesSoundNameAsTitle() {
+        assertThat(mSubject.getTitle(), is(mSound.getName()));
+    }
 }
